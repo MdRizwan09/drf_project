@@ -1,0 +1,52 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# =========================
+# Virtual Environments
+# =========================
+env/
+venv/
+.venv/
+
+# # =========================
+# # Django
+# # =========================
+# *.log
+# local_settings.py
+# db.sqlite3
+
+# =========================
+# Django migrations cache
+# =========================
+**/__pycache__/
+
+# =========================
+# IDE / Editor files
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Test / Coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# # =========================
+# # Static & Media (optional)
+# # =========================
+# staticfiles/
+# media/
